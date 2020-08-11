@@ -47,12 +47,12 @@ help() {
   echo "  sh resource.sh <function>"
   echo ""
   echo "Available functions:"
+  echo "  - help"
   echo "  - qos"
   echo "  - resource_quota"
   echo "  - resource_quota_pod"
-  echo "  - help"
 }
 
-fn_name=${1:help}
+fn_name=${1:-help}
 
 $fn_name
