@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Environment varialbes:
-#   - K8S_TOOL_NAMESPACE
+#   - K8S_SHELL_NAMESPACE
 #     Default to 'default'.
 
-NAMESPACE=${K8S_TOOL_NAMESPACE:-default}
+NAMESPACE=${K8S_SHELL_NAMESPACE:-default}
 
 
 
